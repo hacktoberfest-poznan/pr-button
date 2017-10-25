@@ -5,7 +5,7 @@ This repo contains script that was used to fire off lighting and audio effects a
 It takes all mp3/aif/wav files from sounds dir and plays them randomly.
 
 ## Lighting effects
-Event held place in [Setapp](https://setapp.pl/) which has couple of smart lights by (Fibaro)[https://www.fibaro.com/]. Which provide a way to remotely control them through http endpoints. You'll need FIBARO api access with valid credentials. We used 3 lights and a default fibaro strobe effect.
+Event held place in [Setapp](https://setapp.pl/) which has couple of smart lights by [https://www.fibaro.com/](FIBARO). Which provide a way to remotely control them through http endpoints. You'll need FIBARO api access with valid credentials. We used 3 lights and a default FIBARO strobe effect.
 
 ## Hardware
 We used Raspberry Pi, but you can use any internet connected device with GPIO and audio output.
