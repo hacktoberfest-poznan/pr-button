@@ -1,0 +1,17 @@
+[Unit]
+Description=PR-Button 
+After=syslog.target
+
+[Service]
+Type=simple
+User=pi    
+Group=pi
+WorkingDirectory=PROJECT_MAIN_DIRECTORY
+ExecStart=PROJECT_MAIN_DIRECTORY/main.py
+StandardOutput=syslog
+StandardError=syslog
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target 
+
